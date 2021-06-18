@@ -1,0 +1,6 @@
+nome = str(input("Digite seu nome: "))
+idade = int(input("Digite sua idade: "))
+nmae = str(input("Digite o nome da sua mãe: "))
+mae = int(input("Qual a idade da sua mãe: "))
+print("Seja bem vindo(a)", nome ,"!!!")
+print("Seu nome é, {}!!" .format(nome) , ", Você tem {} Anos!!".format(idade),", O nome da sua mãe é {}" .format(nmae), "A idade dela é {}" .format(mae), "A idade de vocês 2 juntos é de {}" .format(idade + mae))
